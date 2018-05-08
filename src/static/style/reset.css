@@ -1,0 +1,7 @@
+html {
+    display: flex;
+    margin: 0;
+    background: gray;
+    background: url("../images/8.png");
+}
+

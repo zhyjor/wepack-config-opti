@@ -1,3 +1,7 @@
+
+import $ from 'jquery'
+
+console.log($)
 class dialog {
     constructor (id) {
         this.id = id
