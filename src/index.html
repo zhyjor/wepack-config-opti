@@ -7,5 +7,27 @@
 <body>
 <img src="./static/images/1.jpg"/>
 <i class="icon iconfont icon-all"></i>
+<script>
+    //    document.domain = '192.168.0.16'
+//    var onmessage = function (event) {
+//        var data = event.data
+//        var origin = event.origin
+//        // 源window对象
+//        var source = event.source
+//        //
+//        console.log(data)
+//    }
+//    if (typeof window.addEventListener != 'undefined') {
+//        window.addEventListener('message', onmessage, false)
+//    } else if (typeof window.attachEvent != 'undefined') {
+//        // for ie
+//        window.attachEvent('onmessage', onmessage)
+//    }
+    window.name = 'iframe-3000'
+    setTimeout(function () {
+        console.log('1111111')
+    },4000)
+
+</script>
 </body>
 </html>
